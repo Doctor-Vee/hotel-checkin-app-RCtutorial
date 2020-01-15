@@ -1,0 +1,18 @@
+### GET Request that fetches all the hotels
+GET http://localhost:8080/hotels/all
+Content-Type: application/json
+
+### GET request that fetches hotels by name
+GET http://localhost:8080/hotels/Federal Palace Hotel
+Content-Type: application/json
+
+### POST request to checkin some guests
+POST http://localhost:8080/hotels/checkin
+Content-Type: application/json
+
+{
+  "hotelName": "Southern Sun",
+  "nbGuests": 3
+  }
+
+###
